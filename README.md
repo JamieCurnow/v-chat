@@ -7,6 +7,8 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
+![VChat ui](https://github.com/user-attachments/assets/b843dd3a-dd46-40df-8569-b608bba81354)
+
 VChat UI is a Vue 3 component library for building AI chat interfaces. It provides a set of customizable components to create chat UIs with ease. Whether you're building a chatbot, virtual assistant, or any conversational interface, VChat UI has you covered!
 
 ## Installation 🚀
