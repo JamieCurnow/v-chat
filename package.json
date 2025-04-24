@@ -1,5 +1,5 @@
 {
-  "name": "v-chat",
+  "name": "vue-chat",
   "version": "0.0.1",
   "private": false,
   "description": "AI Chat ui component library for Vue 3",
@@ -7,14 +7,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/v-chat.umd.js",
-  "module": "./dist/v-chat.es.js",
+  "main": "./dist/vue-chat.umd.js",
+  "module": "./dist/vue-chat.es.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "require": "./dist/v-chat.umd.js",
-      "import": "./dist/v-chat.es.js"
+      "require": "./dist/vue-chat.umd.js",
+      "import": "./dist/vue-chat.es.js"
     }
   },
   "scripts": {

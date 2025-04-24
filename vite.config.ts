@@ -19,7 +19,7 @@ export default defineConfig({
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, 'src/index.ts'), // Your library's entry point
       name: 'VChat', // The variable name to expose in UMD builds
-      fileName: (format) => `v-chat.${format}.js`, // Naming scheme for build outputs
+      fileName: (format) => `vue-chat.${format}.js`, // Naming scheme for build outputs
       formats: ['es', 'umd', 'cjs'] // Specify desired output formats (ES Module, Universal Module Definition, CommonJS)
     },
     rollupOptions: {
