@@ -1,1 +1,1 @@
-export const useIdPrefix = (id: string) => `vue-chat-ui-${id}`
+export const useIdPrefix = (id: string) => `v-chat-ui-ui-${id}`

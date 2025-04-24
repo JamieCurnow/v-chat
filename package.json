@@ -1,5 +1,5 @@
 {
-  "name": "vue-chat",
+  "name": "v-chat-ui",
   "version": "0.0.2",
   "private": false,
   "description": "AI Chat ui component library for Vue 3",
@@ -7,14 +7,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-chat.umd.js",
-  "module": "./dist/vue-chat.es.js",
+  "main": "./dist/v-chat-ui.umd.js",
+  "module": "./dist/v-chat-ui.es.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "require": "./dist/vue-chat.umd.js",
-      "import": "./dist/vue-chat.es.js"
+      "require": "./dist/v-chat-ui.umd.js",
+      "import": "./dist/v-chat-ui.es.js"
     }
   },
   "scripts": {
@@ -68,6 +68,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamieCurnow/vue-chat"
+    "url": "https://github.com/JamieCurnow/v-chat-ui"
   }
 }

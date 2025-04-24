@@ -16,11 +16,11 @@ VChat UI is a Vue 3 component library for building AI chat interfaces. It provid
 Install the library using npm or yarn:
 
 ```bash
-npm install vue-chat
+npm install v-chat-ui
 
 # or
 
-yarn add vue-chat
+yarn add v-chat-ui
 ```
 
 ## Quick Start ✨
