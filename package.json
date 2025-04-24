@@ -1,0 +1,69 @@
+{
+  "name": "v-chat",
+  "version": "0.0.1",
+  "private": false,
+  "description": "AI Chat ui component library for Vue 3",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/v-chat.umd.js",
+  "module": "./dist/v-chat.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "require": "./dist/v-chat.umd.js",
+      "import": "./dist/v-chat.es.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly --declaration --declarationMap",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.1.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.2.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.5.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-vue": "~10.0.0",
+    "jiti": "^2.4.2",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "3.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "~5.8.0",
+    "vite": "^6.2.4",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "vue-tsc": "^2.2.8"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "library",
+    "ai",
+    "chat",
+    "ui"
+  ],
+  "author": "Hiyield",
+  "license": "MIT"
+}
