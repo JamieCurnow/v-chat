@@ -1,6 +1,6 @@
 {
   "name": "v-chat-ui",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": false,
   "description": "AI Chat ui component library for Vue 3",
   "type": "module",
